@@ -1,0 +1,47 @@
+body {
+  background-color: grey;
+  font-family: Helvetica;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+.emphasis {
+  background-color: cyan;
+  text-align: center;
+  color: #007700; 
+}
+
+ul,
+ol {
+  background-color: #ffaaaa;
+  font-size: 22px;
+  list-style: none;
+  font-weight: bold;
+}
+
+ol {
+  counter-reset: li;
+}
+
+ul li::before {
+  content: "\2022";
+}
+
+li::before {
+  color: cyan;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+ol li::before {
+  content: counter(li);
+}
+
+li {
+  counter-increment: li;
+}
