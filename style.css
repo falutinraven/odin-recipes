@@ -1,10 +1,9 @@
 body {
-  background-color: grey;
   font-family: Helvetica;
 }
 
 h1 {
-  background-color: cyan;
+  background-color: #ffaaaa91;
   text-align: center;
   padding: 10px;
   font-size: 60px;
@@ -12,23 +11,24 @@ h1 {
 }
 
 .container {
-  border: 6px dotted #ffaaaa;
+  border: 6px dotted #0800ff96;
 }
 
 ul{
   font-size: 22px;
   list-style: none;
   font-weight: bold;
-  border: 6px dotted cyan;
+  padding: 0px;
+  border: 6px dotted #0800ff96;
 }
 
 li {
   margin: 0px auto;
-  background-color: #ffaaaa;
+  background-color: #ffaaaa91;
   padding: 10px;
   text-align: center;
   display: block;
-  margin-left: -32px;
+  margin-left: 8px;
   margin-right: 8px;
   margin-top: 8px;
   margin-bottom: 8px;
