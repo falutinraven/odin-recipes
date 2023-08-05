@@ -3,15 +3,13 @@ body {
 }
 
 h1 {
-  background-color: #ffaaaa91;
-  text-align: center;
-  padding: 10px;
+  background-color: #3989f991;
+  padding: 10px 0px;
   font-size: 60px;
-  margin: 8px;
-}
-
-.container {
+  max-width: 100%;
   border: 6px dotted #0800ff96;
+  margin: auto;
+  text-align: center;
 }
 
 ul{
@@ -19,18 +17,21 @@ ul{
   list-style: none;
   font-weight: bold;
   padding: 0px;
-  border: 6px dotted #0800ff96;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 li {
-  margin: 0px auto;
-  background-color: #ffaaaa91;
+  border: 4px dotted #0800ff96;
+  background-color: #3989f991;
   padding: 10px;
   text-align: center;
-  display: block;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  flex: 1;
+}
+
+a {
+  color: black;
 }
 
